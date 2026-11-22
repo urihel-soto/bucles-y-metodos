@@ -46,13 +46,8 @@ El programa principal (`Main`) lee los datos ingresados y los envía como argume
 
 ---
 
-## 7. Capturas de Pantalla de Ejecución
-
-###Escenario 1: Cálculo de área del triángulo
-  ![Área Triángulo](Capturas/captura-1.png)
-
-###Escenario 2: Cálculo de área del cuadrado
-  ![Áreas Cuadrado](Capturas/captura-2.png)
-
-###Escenario 3: Validación de mayor y menor de edad
-  ![Validación Edad](Capturas/captura-3.png)
+### Capturas de Pantalla
+| Escenario 1 | Escenario 2 | Escenario 3 |
+| :---: | :---: | :---: |
+| ![Área Triángulo](Capturas/captura-1.png) | ![Áreas Cuadrado](Capturas/captura-2.png) | ![Validación Edad](Capturas/captura-3.png) |
+| *Cálculo de área del triángulo* | * Cálculo de área del cuadrado* | *Validación de mayor y menor de edad* |
