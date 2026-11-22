@@ -15,6 +15,54 @@ class Program
         return (baseTriangulo * altura) / 2;
     }
 
+// =====================================================================
+    // PARTE 3 - DALBERT HERNANDEZ
+    // Esta es mi parte del código: inicio el programa principal (Main),
+    // muestro el menú y hago las opciones 1 (triángulo) y 2 (cuadrado).
+    // Sigue Emmanuel.
+    // =====================================================================
+
+    // Programa principal
+    static void Main()
+    {
+        int opcion;
+
+        do
+        {
+            Console.WriteLine("\n===== MENU PRINCIPAL =====");
+            Console.WriteLine("1. Calcular area del triangulo");
+            Console.WriteLine("2. Calcular area del cuadrado");
+            Console.WriteLine("3. Calcular area del circulo");
+            Console.WriteLine("4. Verificar edad");
+            Console.WriteLine("5. Salir");
+            Console.Write("\nSeleccione una opcion: ");
+
+            opcion = Convert.ToInt32(Console.ReadLine());
+
+            switch (opcion)
+            {
+                case 1:
+                    Console.Write("\nIngrese la base del triangulo: ");
+                    double baseT = Convert.ToDouble(Console.ReadLine());
+
+                    Console.Write("Ingrese la altura: ");
+                    double altura = Convert.ToDouble(Console.ReadLine());
+
+                    double resultadoT = AreaTriangulo(baseT, altura);
+
+                    Console.WriteLine("El area del triangulo es: " +
+                        resultadoT);
+                    break;
+
+                case 2:
+                    Console.Write("\nIngrese el lado del cuadrado: ");
+                    double lado = Convert.ToDouble(Console.ReadLine());
+
+                    double resultadoC = AreaCuadrado(lado);
+
+                    Console.WriteLine("El area del cuadrado es: " +
+                        resultadoC);
+                    break;
     // Funcion para calcular el area de un cuadrado
     static double AreaCuadrado(double lado)
     {
