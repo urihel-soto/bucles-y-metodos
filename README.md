@@ -1,7 +1,7 @@
 # Actividad: Control de Flujo de una Aplicación en C#
 
 ## 1. Autores y Matrículas
-- **Génesis Altagracia de la Cruz Perozo** | Matrícula: 26-SISN-2-051
+- **Génesis Altagracia de la Cruz Perozo** | Matrícula: 25-SISN-2-051
 - **Dalbert Yordani Hernández Alcántara** | Matrícula: 26-EISN-2-014
 - **Emmanuel Javier Mercedes** | Matrícula: 26-EISN-2-023
 - **Urihel Soto De Peña** | Matrícula: 26-EISN-2-032
