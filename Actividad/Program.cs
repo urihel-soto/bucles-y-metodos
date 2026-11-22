@@ -6,8 +6,22 @@ class Program
     // PARTE 1 - YOKENDDY
     // Esta es mi parte del código: abro la clase Program y hago las
     // funciones para calcular el área del triángulo y del cuadrado.
+    // Sigue Antoni Ramirez.
     // =====================================================================
-// =====================================================================
+
+    // Funcion para calcular el area de un triangulo
+    static double AreaTriangulo(double baseTriangulo, double altura)
+    {
+        return (baseTriangulo * altura) / 2;
+    }
+
+    // Funcion para calcular el area de un cuadrado
+    static double AreaCuadrado(double lado)
+    {
+        return lado * lado;
+    }
+
+    // =====================================================================
     // PARTE 2 - ANTONI RAMIREZ
     // Esta es mi parte del código: hago la función del área del círculo
     // y la función que verifica si una persona es mayor de edad.
@@ -32,13 +46,8 @@ class Program
             return "Eres menor de edad.";
         }
     }
-    // Funcion para calcular el area de un triangulo
-    static double AreaTriangulo(double baseTriangulo, double altura)
-    {
-        return (baseTriangulo * altura) / 2;
-    }
 
-// =====================================================================
+    // =====================================================================
     // PARTE 3 - DALBERT HERNANDEZ
     // Esta es mi parte del código: inicio el programa principal (Main),
     // muestro el menú y hago las opciones 1 (triángulo) y 2 (cuadrado).
@@ -86,12 +95,8 @@ class Program
                     Console.WriteLine("El area del cuadrado es: " +
                         resultadoC);
                     break;
-    // Funcion para calcular el area de un cuadrado
-    static double AreaCuadrado(double lado)
-    {
-        return lado * lado;
-    }
-// =============================================================
+
+                // =============================================================
                 // PARTE 4 - EMMANUEL
                 // Esta es mi parte del código: hago las opciones 3 (círculo),
                 // 4 (verificar edad), 5 (salir), la opción no válida y
