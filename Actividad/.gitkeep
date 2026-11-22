@@ -68,3 +68,42 @@ class Program
     {
         return lado * lado;
     }
+// =============================================================
+                // PARTE 4 - EMMANUEL
+                // Esta es mi parte del código: hago las opciones 3 (círculo),
+                // 4 (verificar edad), 5 (salir), la opción no válida y
+                // cierro el programa.
+                // Fin del código.
+                // =============================================================
+
+                case 3:
+                    Console.Write("\nIngrese el radio del circulo: ");
+                    double radio = Convert.ToDouble(Console.ReadLine());
+
+                    double resultadoCirculo = AreaCirculo(radio);
+
+                    Console.WriteLine("El area del circulo es: " +
+                        resultadoCirculo);
+                    break;
+
+                case 4:
+                    Console.Write("\nIngrese su edad: ");
+                    int edad = Convert.ToInt32(Console.ReadLine());
+
+                    string mensaje = VerificarEdad(edad);
+
+                    Console.WriteLine(mensaje);
+                    break;
+
+                case 5:
+                    Console.WriteLine("\nGracias por utilizar el programa.");
+                    break;
+
+                default:
+                    Console.WriteLine("\nOpcion no valida. Intente nuevamente.");
+                    break;
+            }
+
+        } while (opcion != 5);
+    }
+}
