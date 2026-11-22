@@ -1,1 +1,22 @@
+using System;
 
+class Program
+{
+    // =====================================================================
+    // PARTE 1 - YOKENDDY
+    // Esta es mi parte del código: abro la clase Program y hago las
+    // funciones para calcular el área del triángulo y del cuadrado.
+    // Sigue Antoni Ramirez.
+    // =====================================================================
+
+    // Funcion para calcular el area de un triangulo
+    static double AreaTriangulo(double baseTriangulo, double altura)
+    {
+        return (baseTriangulo * altura) / 2;
+    }
+
+    // Funcion para calcular el area de un cuadrado
+    static double AreaCuadrado(double lado)
+    {
+        return lado * lado;
+    }
