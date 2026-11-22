@@ -43,3 +43,16 @@ El programa principal (`Main`) lee los datos ingresados y los envía como argume
 ## 6. Tecnología Utilizada
 - **Lenguaje de Programación:** C# (.NET Console Application)
 - **Control de Versiones:** Git y GitHub
+
+---
+
+## 7. Capturas de Pantalla de Ejecución
+
+- **Escenario 1: Cálculo de área del triángulo**
+  `![Área Triángulo](Capturas/captura-1.png)`
+
+- **Escenario 2: Cálculo de área del cuadrado**
+  `![Áreas Cuadrado](Capturas/captura-2.png)`
+
+- **Escenario 3: Validación de mayor y menor de edad**
+  `![Validación Edad](Capturas/captura-3.png)`
