@@ -6,9 +6,32 @@ class Program
     // PARTE 1 - YOKENDDY
     // Esta es mi parte del código: abro la clase Program y hago las
     // funciones para calcular el área del triángulo y del cuadrado.
-    // Sigue Antoni Ramirez.
+    // =====================================================================
+// =====================================================================
+    // PARTE 2 - ANTONI RAMIREZ
+    // Esta es mi parte del código: hago la función del área del círculo
+    // y la función que verifica si una persona es mayor de edad.
+    // Sigue Dalbert Hernandez.
     // =====================================================================
 
+    // Funcion para calcular el area de un circulo
+    static double AreaCirculo(double radio)
+    {
+        return Math.PI * radio * radio;
+    }
+
+    // Funcion para determinar si una persona es mayor de edad
+    static string VerificarEdad(int edad)
+    {
+        if (edad >= 18)
+        {
+            return "Eres mayor de edad.";
+        }
+        else
+        {
+            return "Eres menor de edad.";
+        }
+    }
     // Funcion para calcular el area de un triangulo
     static double AreaTriangulo(double baseTriangulo, double altura)
     {
