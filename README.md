@@ -1,4 +1,4 @@
-# Actividad: Control de Flujo de una Aplicación en C#
+#Control de Flujo de una Aplicación en C#
 
 ## 1. Autores y Matrículas
 - **Génesis Altagracia de la Cruz Perozo** | Matrícula: 25-SISN-2-051
