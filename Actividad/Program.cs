@@ -135,3 +135,25 @@ class Program
         } while (opcion != 5);
     }
 }
+
+
+// =================================================================
+        // PARTE 3 - DALBERT HERNANDEZ
+        // Esta es mi parte del código: muestro en la consola la información
+        // de todos los libros que se registraron.
+        // Sigue Emmanuel.
+        // =================================================================
+
+        // Mostrar información en consola
+        Console.WriteLine("\n===== BIBLIOTECA REGISTRADA =====");
+
+        for (int i = 0; i < biblioteca.Length; i++)
+        {
+            Console.WriteLine("\n--- LIBRO " + (i + 1) + " ---");
+            Console.WriteLine("Código: " + biblioteca[i].Codigo);
+            Console.WriteLine("Título: " + biblioteca[i].Titulo);
+            Console.WriteLine("Autor: " + biblioteca[i].Autor);
+            Console.WriteLine("Año: " + biblioteca[i].Anio);
+            Console.WriteLine("Editorial: " + biblioteca[i].Editorial);
+            Console.WriteLine("Páginas: " + biblioteca[i].NumeroPaginas);
+        }
